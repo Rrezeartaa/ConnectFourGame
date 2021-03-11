@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loja Connect Four</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Autour+One|Exo+2' rel='stylesheet' type='text/css'>
+        <script src="js/kryesore.js" type="text/javascript"></script>
+        <script src="js/logic.js" type="text/javascript"></script>
+        <script src="js/animacioni.js" type="text/javascript"></script>
+        
+    </head>
+    <body onload="init(6, 7, grid)">
+        <div id="wrapper">
+            <canvas id="canvas" width="585" height="500"></canvas>
+            <div id="grid"></div>
+            <div id="board"></div>
+            
+            <div id = "outputDiv">
+                <div class="title">Output</div>
+                <div class="content">
+                    <span id="output"></span>
+                </div>
+            </div>
+            
+            <div id = "scoreDiv">
+                <div class="title">Score</div>
+                <div class="content">
+                    <span class="player1"> </span>
+                        <span id="player1Score"></span>
+                   
+                    <br/>
+                    <span class="player2"></span>
+                        <span id="player2Score"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        
+        <div id="centerElements">
+            <a id="newGame" onclick="resetGame(6, 7, grid)" href="#" class="button button2">New Game</a>
+            
+            <div id="playerSelector">
+                <input type="radio" id="one_player" name="player_selector" value="one_player" onchange="changeAgainst()"/> <span>One Player</span>
+                <br/>
+                <input type="radio" id="two_players" name="player_selector" value="two_players" onchange="changeAgainst()" checked /> <span>Two Players</span>
+            </div>
+             
+        </div>
+       
+    </body>
+</html>
