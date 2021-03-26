@@ -6,8 +6,10 @@ Loja përbëhet nga një tabelë me dimensione 7x6 (7 kolona dhe 6 rreshta) dhe 
 cilën secili lojtar e ka ngjyrën e tij. Objektiva e secilit lojtar është që të krijojë një formacion në tabelë e të cilën
 duhet të tentojnë që të vendosin ngjyrat në atë mënyrë që të mund të fitojnë lojën. Ngjyrat duhet të
 vendosen në formë të stakut, kjo nënkupton që mbushja e tabelës bëhet nga poshtë. Janë disa mundësi që
-njëri lojtar të fitojë lojën. 1) Ti vendos katër ngjyra të njëjta të njëpasnjëshme në një rresht 2) Ti vendos katër
-ngjyra të njëjta të njëpasnjëshme në një kolonë 3) Ti vendos katër ngjyra të njëjta të njëpasnjëshme në
+njëri lojtar të fitojë lojën. 
+1) Ti vendos katër ngjyra të njëjta të njëpasnjëshme në një rresht 
+2) Ti vendos katër ngjyra të njëjta të njëpasnjëshme në një kolonë 
+3) Ti vendos katër ngjyra të njëjta të njëpasnjëshme në
 mënyrë diagonale.
 
 Gameplay
